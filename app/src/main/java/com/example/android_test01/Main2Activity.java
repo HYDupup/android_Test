@@ -28,7 +28,6 @@ public class Main2Activity extends AppCompatActivity {
                 intent.setClass(Main2Activity.this,Test01.class);
                 startActivity(intent);
 
-
             }
         });
 
@@ -51,6 +50,7 @@ public class Main2Activity extends AppCompatActivity {
         linear.addView(bt1);
 
     }
+
 
     @Override
         protected void onPause() {
